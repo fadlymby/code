@@ -127,14 +127,15 @@ function ContactPage() {
           <li className=" list-disc">Mall Plaza Pondok Gede - Lt. G</li>
           <li className=" list-disc">Transpark Juanda - Lt. GF</li>
           <li className=" list-disc">Living Plaza Jababeka - Lt. G</li>
+          <li className=" list-disc">Stasiun Bekasi</li>
         </ul>
       </div>
 
       <Marquee>
-            <div className=" flex text-black font-extrabold lg:text-4xl text-2xl font-serif justify-center">
-              PESAN SEKARANG DI
-            </div>
-          </Marquee>
+        <div className=" flex text-black font-extrabold lg:text-4xl text-2xl font-serif justify-center">
+          PESAN SEKARANG DI
+        </div>
+      </Marquee>
 
       <div className="grid lg:grid-cols-3 lg:gap-8 justify-center items-center lg:pr-52 pr-32 lg:pl-52 pl-32">
         <Image src={grab} alt="" className="" />
